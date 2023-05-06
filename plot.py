@@ -65,7 +65,7 @@ print()
 
 # Plot the scores for gpt_2, gpt_4, gpt_6, and gpt_8
 model_names = ['gpt_2', 'gpt_4', 'gpt_6', 'gpt_8']
-model_metrics = ['proof-leaves', 'proof-steps', 'proof-intermediates', 'proof-overall'] # MISSING PROOF-INTERMEDIATE
+model_metrics = ['proof-leaves', 'proof-steps', 'proof-intermediates', 'proof-overall']
 scores = [load_scores(data, model_name) for model_name in model_names]
 
 print(scores)
