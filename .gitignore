@@ -8,3 +8,7 @@
 data/processed_data/predictions
 
 data/processed_data/scorings
+
+outputs
+
+slurm
